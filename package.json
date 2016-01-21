@@ -1,7 +1,7 @@
 {
   "name": "droidekas",
   "description": "Debug Google Analytics Android implementations in your browser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/growth-digital/droidekas.git"
