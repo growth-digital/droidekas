@@ -7,7 +7,12 @@
     "url": "https://github.com/growth-digital/droidekas.git"
   },
   "bin": "./server.js",
-  "keywords": "./server.js",
+  "keywords": [
+    "analytics",
+    "google analytics",
+    "debug",
+    "android"
+  ],
   "author": "George Zografos",
   "license": "MIT",
   "dependencies": {
