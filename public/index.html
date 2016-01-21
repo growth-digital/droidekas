@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Droidekas</title>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+  <style>
+    .logo {
+      height: 230px;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-push-3">
+        <div class="page-header">
+          <h1 style="text-align:center;">Droidekas</h1>
+        </div>
+          <img class="logo center-block" src="/droidekas.png">
+        <p class="lead text-center">Open your console</p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    var HOSTNAME = '{{HOSTNAME}}';
+    var PORT = '{{PORT}}';
+  </script>
+  <script src="/client.js"></script>
+</body>
+
+</html>
