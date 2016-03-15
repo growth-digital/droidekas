@@ -253,16 +253,16 @@
         parameters[listIdx + ' - Product Impression Custom Metric' + cdIdx + ' ' + productIdx] = parameters[key];
       } else if (/promo\d+id/.test(key)) {
         promoIdx = key.match(/\d+/)[0];
-        parameters['Promotion ID ' + productIdx] = parameters[key];
+        parameters['Promotion ID ' + promoIdx] = parameters[key];
       } else if (/promo\d+nm/.test(key)) {
         promoIdx = key.match(/\d+/)[0];
-        parameters['Promotion Name ' + productIdx] = parameters[key];
+        parameters['Promotion Name ' + promoIdx] = parameters[key];
       } else if (/promo\d+cr/.test(key)) {
         promoIdx = key.match(/\d+/)[0];
-        parameters['Promotion Creative ' + productIdx] = parameters[key];
+        parameters['Promotion Creative ' + promoIdx] = parameters[key];
       } else if (/promo\d+ps/.test(key)) {
         promoIdx = key.match(/\d+/)[0];
-        parameters['Promotion Position ' + productIdx] = parameters[key];
+        parameters['Promotion Position ' + promoIdx] = parameters[key];
       } else if (/promoa/.test(key)) {
         parameters['Promotion Action'] = parameters[key];
       }
