@@ -16,8 +16,8 @@ commander
   .parse(process.argv);
 
 if (!commander.hostname || !commander.port) {
-  commander.outputHelp();
-  return;
+  commander.hostname = 'localhost';
+  commander.port = '8080';
 }
 
 try {
