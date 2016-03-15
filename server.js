@@ -63,7 +63,7 @@ websocketServer.on('request', function(request) {
   console.log(formattedDate() + ' Websocket connection accepted');
 
   logcat.stdout.on('data', function(data) {
-    var data = data.toString();
+    data = data.toString();
     console.log(data);
     var parameters = JSON.stringify(parse(data));
     if (!parameters) {
